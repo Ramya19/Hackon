@@ -1,0 +1,44 @@
+public class Hack {
+    static int y;
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        try
+        {
+        // TODO code application logic here
+        //Scanner sc=new Scanner(System.in);
+        int ammount=50000;
+        //ammount=sc.nextInt();
+        System.out.println("ur account bal="+ammount);
+        money mo=new money();
+        
+        
+       y=mo.transaction(5000, 50000);
+        mo.withdraw(5000, 50000);
+        //System.out.println(" bal after transaction "+sum);
+        
+    }
+        catch(Exception e)
+        {
+            System.out.println(e);
+        }
+        finally
+                {
+                 int myaccount=10000;
+                 myaccount=myaccount+y;
+                    System.out.println("print hacked ammount"+myaccount);
+                 
+                 
+                     
+                 
+                  
+                
+    
+
+
+}
+    
+}
+}
